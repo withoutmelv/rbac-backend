@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["src/tests/*"],
+  "exec": "npm run ts-node"
+}

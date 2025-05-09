@@ -10,6 +10,7 @@ import { loadRoutes } from './utils/load-routes';
 import { errorHandler } from './utils/error-handler';
 import { authMiddleware } from './middlewares/auth-middleware';
 import getEnumParser from './utils/enum-parser';
+import './utils/mongo-connect';
 
 // 加载环境变量
 dotenv.config({ path: `.env.${process.env.NODE_ENV || 'development'}` })

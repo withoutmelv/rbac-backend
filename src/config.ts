@@ -7,11 +7,11 @@ class BaseConfig {
     '/sys/logout',
     '/sys/getCaptchaOpenFlag'
   ];
-  public DB_HOST: string = process.env.DB_HOST || "172.16.31.160";
+  public DB_HOST: string = process.env.DB_HOST || "localhost";
   public DB_PORT: number = parseInt(process.env.DB_PORT || "3306", 10);
   public DB_NAME: string = process.env.DB_NAME || "sys";
   public DB_USER: string = process.env.DB_USER || "root";
-  public DB_PASSWORD: string = process.env.DB_PASSWORD || "8Eli#gr#AUk";
+  public DB_PASSWORD: string = process.env.DB_PASSWORD || "123456";
   public SQL_ECHO: boolean = false;
   public DEFAULT_PASSWORD: string = process.env.M_DEFAULT_PASSWORD || "123456";
 }
